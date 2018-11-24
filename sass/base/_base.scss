@@ -1,0 +1,51 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+    --color-primary-left: #ffd500;
+    --color-primary-right: #ff9200;
+
+    --cloudy-blue: #cad7dd;
+    --charcoal-grey: #373d40;
+    --greeny-blue: #49c8a8;
+    --tiffany-blue: #60e6c5;
+    --cloudy-blue-two: #b1bfcd;
+    --pale-grey: #f5f8f9;
+    --black: #383838;
+
+} 
+
+$bp-largest: 75em;     // 1200px
+$bp-large: 68.75em;    // 1100px
+$bp-medium: 56.25em;   // 900px
+$bp-small: 37.5em;     // 600px
+$bp-smallest: 31.25em; // 500px
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    // set 1 rem = 10px
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: normal;
+    
+    min-height: 100vh;
+
+}

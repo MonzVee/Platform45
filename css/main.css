@@ -1,0 +1,109 @@
+.logo {
+  display: flex;
+  box-sizing: content-box;
+  height: 24rem;
+  width: 24rem;
+  border-radius: 50%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+:root {
+  --color-primary-left: #ffd500;
+  --color-primary-right: #ff9200;
+  --cloudy-blue: #cad7dd;
+  --charcoal-grey: #373d40;
+  --greeny-blue: #49c8a8;
+  --tiffany-blue: #60e6c5;
+  --cloudy-blue-two: #b1bfcd;
+  --pale-grey: #f5f8f9;
+  --black: #383838; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: normal;
+  min-height: 100vh; }
+
+.sidebar {
+  display: flex;
+  align-items: center; }
+
+.arrow-button {
+  justify-content: end;
+  align-content: flex-end;
+  width: 6.3rem;
+  height: 6.3rem; }
+
+.container {
+  max-width: 124rem;
+  max-height: 124rem;
+  margin: 8rem auto;
+  background-color: white;
+  min-height: 50rem; }
+
+.content {
+  display: flex;
+  justify-content: space-between; }
+
+.sidebar {
+  background-color: var(--color-primary-left);
+  max-width: 39.2rem;
+  max-height: 89.2rem;
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.main-view {
+  background-color: var(--color-primary-right);
+  flex: 1; }
+
+body {
+  font-family: Arial;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal; }
+
+.main-heading {
+  align-content: center;
+  width: 40rem;
+  height: 4rem;
+  font-family: Arial;
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black); }
+
+.left-content {
+  display: flex;
+  width: 23.8rem;
+  height: 6rem;
+  font-family: Arial;
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black); }

@@ -1,0 +1,41 @@
+.container {
+    max-width: 124rem;
+    max-height: 124rem;
+    margin: 8rem auto;
+    background-color: white;
+
+    min-height: 50rem;
+
+ 
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+
+.sidebar {
+    background-color: var(--color-primary-left);
+    max-width: 39.2rem;
+    max-height: 89.2rem; 
+
+    
+    flex: 0 0 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.main-view {
+    background-color: var(--color-primary-right);
+
+    flex: 1;
+}
+   
